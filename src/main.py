@@ -33,7 +33,7 @@ app = FastAPI(
         "using OCR (Tesseract) + AI (OpenAI). Upload any invoice and get back "
         "structured JSON with vendor info, line items, totals, and more."
     ),
-    version="1.0.0",
+    version="1.0.1",
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc",
@@ -47,9 +47,9 @@ app.include_router(router)
 
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse(request, "index.html")
 
 
 @app.get("/health")
 async def health():
-    return {"status": "healthy", "service": "smart-invoice-parser", "version": "1.0.0"}
+    return {"status": "healthy", "service": "smart-invoice-parser", "version": "1.0.1"}
