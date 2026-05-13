@@ -7,6 +7,14 @@
 
 A REST API that extracts structured data from invoice PDFs and images using **OCR (Tesseract)** + **AI (OpenAI)**. Upload any invoice and get back clean, structured JSON with vendor info, line items, totals, and more.
 
+## Screenshots
+
+### Upload Interface
+![Upload UI](docs/screenshot-upload-ui.png)
+
+### API Documentation (Swagger)
+![Swagger Docs](docs/screenshot-swagger-docs.png)
+
 ## Features
 
 - **PDF & Image Support** — Upload PDF, PNG, JPEG, TIFF, or BMP invoices

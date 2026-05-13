@@ -7,6 +7,14 @@
 
 Una API REST que extrae datos estructurados de facturas en PDF e imagenes usando **OCR (Tesseract)** + **IA (OpenAI)**. Sube cualquier factura y obtendras JSON estructurado con datos del proveedor, lineas de detalle, totales y mas.
 
+## Capturas de Pantalla
+
+### Interfaz de Carga
+![Upload UI](docs/screenshot-upload-ui.png)
+
+### Documentacion API (Swagger)
+![Swagger Docs](docs/screenshot-swagger-docs.png)
+
 ## Caracteristicas
 
 - **Soporte PDF e Imagenes** — Sube facturas en PDF, PNG, JPEG, TIFF o BMP
