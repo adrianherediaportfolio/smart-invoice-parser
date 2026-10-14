@@ -3,7 +3,7 @@
 [![CI](https://github.com/adrianherediaportfolio/smart-invoice-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/adrianherediaportfolio/smart-invoice-parser/actions)
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
 
 A REST API that extracts structured data from invoice PDFs and images using **OCR (Tesseract)** + **AI (OpenAI)**. Upload any invoice and get back clean, structured JSON with vendor info, line items, totals, and more.
 
@@ -160,5 +160,9 @@ pytest tests/ -v
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Copyright (c) 2026 Adrian Heredia Jimenez. All rights reserved.
+
+This is proprietary software. The code is public so you can see it, but you can't use, copy, modify or distribute it without my written permission. See [LICENSE](LICENSE).
+
+Want to use it or buy a license? Write to adrian.heredia.jimenez@gmail.com.
 

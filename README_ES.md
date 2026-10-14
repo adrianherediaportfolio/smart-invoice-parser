@@ -3,7 +3,7 @@
 [![CI](https://github.com/adrianherediaportfolio/smart-invoice-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/adrianherediaportfolio/smart-invoice-parser/actions)
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Licencia](https://img.shields.io/badge/Licencia-Propietaria-red)](LICENSE)
 
 Una API REST que extrae datos estructurados de facturas en PDF e imagenes usando **OCR (Tesseract)** + **IA (OpenAI)**. Sube cualquier factura y obtendras JSON estructurado con datos del proveedor, lineas de detalle, totales y mas.
 
@@ -160,4 +160,9 @@ pytest tests/ -v
 
 ## Licencia
 
-MIT — ver [LICENSE](LICENSE).
+Copyright (c) 2026 Adrian Heredia Jimenez. Todos los derechos reservados.
+
+Software propietario. El código es público para que puedas verlo, pero no puedes usarlo, copiarlo, modificarlo ni distribuirlo sin mi permiso por escrito. Consulta [LICENSE](LICENSE).
+
+¿Quieres usarlo o comprar una licencia? Escríbeme a adrian.heredia.jimenez@gmail.com.
+
