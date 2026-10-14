@@ -3,7 +3,7 @@ name = "smart-invoice-parser"
 version = "1.0.1"
 description = "REST API that extracts structured data from invoice PDFs and images using OCR + AI"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "Proprietary"}
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.115.0",
